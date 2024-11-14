@@ -52,4 +52,36 @@ if HPBars then
         offset = Vector(-6,0)
     }
     --#endregion
+    --#region Grotto
+    -- Stub
+    HPBars.BossDefinitions["360.40"] = {
+        sprite = "gfx/bosses/grotto/stub/stub.png",
+        offset = Vector(-6,0)
+    }
+    -- Sloppy Joe
+    HPBars.BossDefinitions["360.50"] = {
+        sprite = "gfx/bosses/grotto/sloppy joe/sloppy joe.png",
+        offset = Vector(-6,0)
+    }
+    -- Plumpod II
+    HPBars.BossDefinitions["360.60"] = {
+        sprite = "gfx/bosses/grotto/plumpod/plumpod.png",
+        offset = Vector(-6,0)
+    }
+    -- Plumpod II
+    HPBars.BossDefinitions["360.60"] = {
+        sprite = "gfx/bosses/grotto/plumpod/plumpod.png",
+        offset = Vector(-6,0)
+    }
+    -- Ms. Guano
+    HPBars.BossDefinitions["360.70"] = {
+        sprite = "gfx/bosses/grotto/ms. guano/msguano.png",
+        offset = Vector(-6,0)
+    }
+    -- Dripilla
+    HPBars.BossDefinitions["360.80"] = {
+        sprite = "gfx/bosses/grotto/dripilla/dripilla.png",
+        offset = Vector(-6,0)
+    }
+    --#endregion
 end
