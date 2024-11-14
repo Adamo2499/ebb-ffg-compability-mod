@@ -17,7 +17,7 @@ if HPBars then
     }
     -- Blister Twins (Affusion and Salmon)
     HPBars.BossDefinitions["360.10"] = {
-        sprite = "gfx/bosses/boiler/affusion.png",
+        sprite = "gfx/bosses/boiler/blister twins/affusion.png",
         offset = Vector(-6,0)
     }
 
