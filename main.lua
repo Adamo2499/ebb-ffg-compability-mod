@@ -9,8 +9,47 @@ end
 
 
 if HPBars then
-    HPBars.BossDefinitions["360.3"] = {
+    --#region Boiler
+    --Charlie
+    HPBars.BossDefinitions["360.3"] = { 
         sprite = "gfx/bosses/boiler/charlie/charlie.png",
         offset = Vector(-6, 0)
     }
+    -- Blister Twins (Affusion and Salmon)
+    HPBars.BossDefinitions["360.10"] = {
+        sprite = "gfx/bosses/boiler/affusion.png",
+        offset = Vector(-6,0)
+    }
+
+    HPBars.BossDefinitions["360.11"] = {
+        sprite = "gfx/bosses/boiler/blister twins/salmon.png",
+        offset = Vector(-6,0)
+    }
+    -- Creem & Mate
+    HPBars.BossDefinitions["360.20"] = {
+        sprite = "gfx/bosses/boiler/creem/creem.png",
+        offset = Vector(-6,0)
+    }
+    HPBars.BossDefinitions["360.21"] = {
+        sprite = "gfx/bosses/boiler/creem/mate.png",
+        offset = Vector(-6,0)
+    }
+    -- Pipeline
+    HPBars.BossDefinitions["360.30"] = {
+        sprite = "gfx/bosses/boiler/pipeline/tootie.png",
+        offset = Vector(-6,0)
+    }
+    HPBars.BossDefinitions["360.31"] = {
+        sprite = "gfx/bosses/boiler/pipeline/chubble.png",
+        offset = Vector(-6,0)
+    }
+    HPBars.BossDefinitions["360.32"] = {
+        sprite = "gfx/bosses/boiler/pipeline/gruff.png",
+        offset = Vector(-6,0)
+    }
+    HPBars.BossDefinitions["360.33"] = {
+        sprite = "gfx/bosses/boiler/pipeline/smokee.png",
+        offset = Vector(-6,0)
+    }
+    --#endregion
 end
