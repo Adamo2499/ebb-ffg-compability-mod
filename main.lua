@@ -7,7 +7,6 @@ if not FFGRACE then
     return
 end
 
-
 if HPBars then
     --#region Boiler
     --Charlie
