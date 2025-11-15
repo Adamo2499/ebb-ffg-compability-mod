@@ -19,6 +19,7 @@ local FFGBossbar = RegisterMod(modName, 1)
 -- #endregion
 
 -- #region replaceHPBarIcon
+if HPBars then
     --#region Boiler
         --#region Charlie
     HPBars.BossDefinitions["360.3"] = { 
@@ -40,11 +41,11 @@ local FFGBossbar = RegisterMod(modName, 1)
         --#region Creem & Mate
     HPBars.BossDefinitions["360.20"] = {
         sprite = "gfx/bosses/boiler/creem/creemicon.png",
-        offset = Vector(-17,0)
+        offset = Vector(-39,0)
     }
     HPBars.BossDefinitions["360.21"] = {
         sprite = "gfx/bosses/boiler/creem/mateicon.png",
-        offset = Vector(0,0)
+        offset = Vector(-7,0)
     }
         --#endregion
         --#region Pipeline
@@ -54,15 +55,15 @@ local FFGBossbar = RegisterMod(modName, 1)
     }
     HPBars.BossDefinitions["360.31"] = {
         sprite = "gfx/bosses/boiler/pipeline/chubbleicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-15,0)
     }
     HPBars.BossDefinitions["360.32"] = {
         sprite = "gfx/bosses/boiler/pipeline/grufficon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-15,0)
     }
     HPBars.BossDefinitions["360.33"] = {
         sprite = "gfx/bosses/boiler/pipeline/smokeeicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-15,0)
     }
         --#endregion
     --#endregion
@@ -70,38 +71,39 @@ local FFGBossbar = RegisterMod(modName, 1)
         --#region Stub
     HPBars.BossDefinitions["360.40"] = {
         sprite = "gfx/bosses/grotto/stub/stubicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(0,0)
     }
         --#endregion
         --#region Sloppy Joe
     HPBars.BossDefinitions["360.50"] = {
-        sprite = "gfx/bosses/grotto/sloppy joe/sloppy joeicon.png",
-        offset = Vector(-6,0)
+        sprite = "gfx/bosses/grotto/sloppy joe/sloppyjoeicon.png",
+        offset = Vector(0,0)
     }
         --#endregion
         --#region Plumpod II
     HPBars.BossDefinitions["360.60"] = {
         sprite = "gfx/bosses/grotto/plumpod/plumpodicon.png",
-        offset = Vector(-6,0)
-    }
-        --#endregion
-        --#region Plumpod II
-    HPBars.BossDefinitions["360.60"] = {
-        sprite = "gfx/bosses/grotto/plumpod/plumpodicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(0,0)
     }
         --#endregion
         --#region Ms. Guano
     HPBars.BossDefinitions["360.70"] = {
         sprite = "gfx/bosses/grotto/ms. guano/msguanoicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(0,0)
     }
         --#endregion
         --#region Dripilla
     HPBars.BossDefinitions["360.80"] = {
         sprite = "gfx/bosses/grotto/dripilla/dripillaicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-14,0)
     }
         --#endregion
+        --#region Dripilla (toxic chamption)
+    -- HPBars.BossDefinitions["360.80"] = {
+    --     sprite = "gfx/bosses/grotto/dripilla/dripillatoxicicon.png",
+    --     offset = Vector(-18,0)
+    -- }
+        --#endregion
     --#endregion
+end
 --#endregion
