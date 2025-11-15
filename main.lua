@@ -1,20 +1,32 @@
 local modName = "Fall From Grace: Enhanced Boss Bars addon"
 local FFGBossbar = RegisterMod(modName, 1)
 
-if not FFGRACE then
-    print("This mod requires Fall From Grace!")
-    Isaac.DebugString("This mod requires Fall From Grace!")
-    return
-end
+-- #region check of required mods being installed
+    --#region Fall From Grace
+    if not FFGRACE then
+        print("This mod requires Fall From Grace!")
+        Isaac.DebugString("This mod requires Fall From Grace!")
+        return
+    end
+    --#endregion
+    --#region Enhanced Boss Bars
+    if not HPBars then
+        print("This mod requires Enhanced Boss Bars!")
+        Isaac.DebugString("This mod requires Enhanced Boss Bars!")
+        return
+    end
+    --#endregion
+-- #endregion
 
-if HPBars then
+-- #region replaceHPBarIcon
     --#region Boiler
-    --Charlie
+        --#region Charlie
     HPBars.BossDefinitions["360.3"] = { 
         sprite = "gfx/bosses/boiler/charlie/charlieicon.png",
         offset = Vector(-6, 0)
     }
-    -- Blister Twins (Affusion and Salmon)
+        --#endregion
+        --#region Blister Twins (Affusion and Salmon)
     HPBars.BossDefinitions["360.10"] = {
         sprite = "gfx/bosses/boiler/blister twins/affusionicon.png",
         offset = Vector(-6,0)
@@ -24,7 +36,8 @@ if HPBars then
         sprite = "gfx/bosses/boiler/blister twins/salmonicon.png",
         offset = Vector(-6,0)
     }
-    -- Creem & Mate
+        --#endregion
+        --#region Creem & Mate
     HPBars.BossDefinitions["360.20"] = {
         sprite = "gfx/bosses/boiler/creem/creemicon.png",
         offset = Vector(-6,0)
@@ -33,7 +46,8 @@ if HPBars then
         sprite = "gfx/bosses/boiler/creem/mateicon.png",
         offset = Vector(-6,0)
     }
-    -- Pipeline
+        --#endregion
+        --#region Pipeline
     HPBars.BossDefinitions["360.30"] = {
         sprite = "gfx/bosses/boiler/pipeline/tootieicon.png",
         offset = Vector(-6,0)
@@ -50,37 +64,44 @@ if HPBars then
         sprite = "gfx/bosses/boiler/pipeline/smokeeicon.png",
         offset = Vector(-6,0)
     }
+        --#endregion
     --#endregion
     --#region Grotto
-    -- Stub
+        --#region Stub
     HPBars.BossDefinitions["360.40"] = {
         sprite = "gfx/bosses/grotto/stub/stubicon.png",
         offset = Vector(-6,0)
     }
-    -- Sloppy Joe
+        --#endregion
+        --#region Sloppy Joe
     HPBars.BossDefinitions["360.50"] = {
         sprite = "gfx/bosses/grotto/sloppy joe/sloppy joeicon.png",
         offset = Vector(-6,0)
     }
-    -- Plumpod II
+        --#endregion
+        --#region Plumpod II
     HPBars.BossDefinitions["360.60"] = {
         sprite = "gfx/bosses/grotto/plumpod/plumpodicon.png",
         offset = Vector(-6,0)
     }
-    -- Plumpod II
+        --#endregion
+        --#region Plumpod II
     HPBars.BossDefinitions["360.60"] = {
         sprite = "gfx/bosses/grotto/plumpod/plumpodicon.png",
         offset = Vector(-6,0)
     }
-    -- Ms. Guano
+        --#endregion
+        --#region Ms. Guano
     HPBars.BossDefinitions["360.70"] = {
         sprite = "gfx/bosses/grotto/ms. guano/msguanoicon.png",
         offset = Vector(-6,0)
     }
-    -- Dripilla
+        --#endregion
+        --#region Dripilla
     HPBars.BossDefinitions["360.80"] = {
         sprite = "gfx/bosses/grotto/dripilla/dripillaicon.png",
         offset = Vector(-6,0)
     }
+        --#endregion
     --#endregion
-end
+--#endregion
