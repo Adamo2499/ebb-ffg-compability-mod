@@ -23,13 +23,13 @@ local FFGBossbar = RegisterMod(modName, 1)
         --#region Charlie
     HPBars.BossDefinitions["360.3"] = { 
         sprite = "gfx/bosses/boiler/charlie/charlieicon.png",
-        offset = Vector(-6, 0)
+        offset = Vector(-10, 0)
     }
         --#endregion
         --#region Blister Twins (Affusion and Salmon)
     HPBars.BossDefinitions["360.10"] = {
         sprite = "gfx/bosses/boiler/blister twins/affusionicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-7,0)
     }
 
     HPBars.BossDefinitions["360.11"] = {
@@ -40,11 +40,11 @@ local FFGBossbar = RegisterMod(modName, 1)
         --#region Creem & Mate
     HPBars.BossDefinitions["360.20"] = {
         sprite = "gfx/bosses/boiler/creem/creemicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(-17,0)
     }
     HPBars.BossDefinitions["360.21"] = {
         sprite = "gfx/bosses/boiler/creem/mateicon.png",
-        offset = Vector(-6,0)
+        offset = Vector(0,0)
     }
         --#endregion
         --#region Pipeline
