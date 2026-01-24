@@ -41,11 +41,8 @@ if HPBars then
         --#region Creem & Mate
     HPBars.BossDefinitions["360.20"] = {
         sprite = "gfx/ui/bosshp_icons/boiler/creem/creem.png",
-        offset = Vector(-39,0)
-    }
-    HPBars.BossDefinitions["360.21"] = {
-        sprite = "gfx/ui/bosshp_icons/boiler/creem/mate.png",
-        offset = Vector(-7,0)
+        iconAnm2 = "gfx/ui/bosshp_icons/bosshp_icon_64px.anm2",
+        offset = Vector(-17,0)
     }
         --#endregion
         --#region Pipeline
