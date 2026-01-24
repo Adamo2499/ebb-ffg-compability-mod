@@ -50,18 +50,6 @@ if HPBars then
         sprite = "gfx/ui/bosshp_icons/boiler/pipeline/tootie.png",
         offset = Vector(-6,0)
     }
-    HPBars.BossDefinitions["360.31"] = {
-        sprite = "gfx/ui/bosshp_icons/boiler/pipeline/chubble.png",
-        offset = Vector(-15,0)
-    }
-    HPBars.BossDefinitions["360.32"] = {
-        sprite = "gfx/ui/bosshp_icons/boiler/pipeline/gruff.png",
-        offset = Vector(-15,0)
-    }
-    HPBars.BossDefinitions["360.33"] = {
-        sprite = "gfx/ui/bosshp_icons/boiler/pipeline/smokee.png",
-        offset = Vector(-15,0)
-    }
         --#endregion
     --#endregion
     --#region Grotto
