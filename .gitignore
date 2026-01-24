@@ -16,3 +16,6 @@ disable.it.*
 .idea/
 /shelf/
 /workspace.xml
+
+# Isaac metadata
+metadata.xml
