@@ -1,18 +1,19 @@
-local modName = "Fall From Grace boss icons"
-local FFGBossbar = RegisterMod(modName, 1)
+local modName = "Fall From Grace Boss Icons"
+FFGBossIcons = RegisterMod(modName, 1)
+local mod = FFGBossIcons
 
 -- #region check of required mods being installed
     --#region Fall From Grace
     if not FFGRACE then
         print("[" .. modName .. "] This mod requires Fall From Grace!")
-        Isaac.DebugString("[" .. modName .. "]This mod requires Fall From Grace!")
+        Isaac.DebugString("[" .. modName .. "] This mod requires Fall From Grace!")
         return
     end
     --#endregion
     --#region Enhanced Boss Bars
     if not HPBars then
-        print("[" .. modName .. "]This mod requires Enhanced Boss Bars!")
-        Isaac.DebugString("[" .. modName .. "]This mod requires Enhanced Boss Bars!")
+        print("[" .. modName .. "] This mod requires Enhanced Boss Bars!")
+        Isaac.DebugString("[" .. modName .. "] This mod requires Enhanced Boss Bars!")
         return
     end
     --#endregion
