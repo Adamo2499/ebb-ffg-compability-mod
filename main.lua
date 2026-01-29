@@ -92,5 +92,15 @@ if HPBars then
     -- }
         --#endregion
     --#endregion
+    --#region Bastille
+    --#endregion
+    --#region Special
+        --#region Grant
+        -- HPBars.BossDefinitions["360.0"] = {
+        --     sprite = "gfx/ui/bosshp_icons/special/grant/grant.png",
+        --     offset = Vector(0,0)
+        -- }
+        --#endregion
+    --#endregion
 end
 --#endregion
