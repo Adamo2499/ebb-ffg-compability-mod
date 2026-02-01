@@ -3,13 +3,6 @@ FFGBossIcons = RegisterMod(modName, 1)
 local mod = FFGBossIcons
 
 -- #region check of required mods being installed
-    --#region Fall From Grace
-    if not FFGRACE then
-        print("[" .. modName .. "] This mod requires Fall From Grace!")
-        Isaac.DebugString("[" .. modName .. "] This mod requires Fall From Grace!")
-        return
-    end
-    --#endregion
     --#region Enhanced Boss Bars
     if not HPBars then
         print("[" .. modName .. "] This mod requires Enhanced Boss Bars!")
@@ -42,14 +35,13 @@ if HPBars then
         --#region Creem & Mate
     HPBars.BossDefinitions["360.20"] = {
         sprite = "gfx/ui/bosshp_icons/boiler/creem/creem.png",
-        iconAnm2 = "gfx/ui/bosshp_icons/bosshp_icon_64px.anm2",
-        offset = Vector(-17,0)
+        offset = Vector(-10,0)
     }
         --#endregion
         --#region Pipeline
     HPBars.BossDefinitions["360.30"] = {
         sprite = "gfx/ui/bosshp_icons/boiler/pipeline/tootie.png",
-        offset = Vector(-6,0)
+        offset = Vector(-10,0)
     }
         --#endregion
     --#endregion
