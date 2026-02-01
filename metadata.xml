@@ -1,8 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<name>Fall From Grace Boss Icons</name>
-	<directory>ebb-ffg-compability-mod</directory>
-	<description/>
-	<version>1.0</version>
-	<visibility/>
-</metadata>
+    <name>Fall From Grace Boss Icons</name>
+    <directory>ebb-ffg-compability-mod</directory>
+    <id>3658326496</id>
+    <description>This mod adds [url=https://steamcommunity.com/workshop/filedetails/?id=2635267643]Enhanced Boss Bars[/url] icons for bosses from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974704582]Fall From Grace[/url]
 
+As of now, Boiler bosses are done, while Grotto are on the way.
+
+Credits:
+Team Fallen Grace for creating Boiler and Grotto floors
+Wofsauge and Blind, the Bound Demon: for making Enhanced Boss Bars.
+quilennnn: for making [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2885452631]Revelations Boss Icons[/url] mod which was huge inspiration for this mod</description>
+    <version>1.1</version>
+    <visibility>Friends Only</visibility>
+    <tag id="Lua"/>
+    <tag id="Graphics"/>
+</metadata>

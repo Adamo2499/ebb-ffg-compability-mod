@@ -47,34 +47,34 @@ if HPBars then
     --#endregion
     --#region Grotto
         --#region Stub
-    HPBars.BossDefinitions["360.40"] = {
-        sprite = "gfx/ui/bosshp_icons/grotto/stub/stub.png",
-        offset = Vector(0,0)
-    }
+    -- HPBars.BossDefinitions["360.40"] = {
+    --     sprite = "gfx/ui/bosshp_icons/grotto/stub/stub.png",
+    --     offset = Vector(0,0)
+    -- }
         --#endregion
         --#region Sloppy Joe
-    HPBars.BossDefinitions["360.50"] = {
-        sprite = "gfx/ui/bosshp_icons/grotto/sloppy joe/sloppyjoe.png",
-        offset = Vector(0,0)
-    }
+    -- HPBars.BossDefinitions["360.50"] = {
+    --     sprite = "gfx/ui/bosshp_icons/grotto/sloppy joe/sloppyjoe.png",
+    --     offset = Vector(0,0)
+    -- }
         --#endregion
         --#region Plumpod II
-    HPBars.BossDefinitions["360.60"] = {
-        sprite = "gfx/ui/bosshp_icons/grotto/plumpod/plumpod.png",
-        offset = Vector(0,0)
-    }
+    -- HPBars.BossDefinitions["360.60"] = {
+    --     sprite = "gfx/ui/bosshp_icons/grotto/plumpod/plumpod.png",
+    --     offset = Vector(0,0)
+    -- }
         --#endregion
         --#region Ms. Guano
-    HPBars.BossDefinitions["360.70"] = {
-        sprite = "gfx/ui/bosshp_icons/grotto/ms. guano/msguano.png",
-        offset = Vector(0,0)
-    }
+    -- HPBars.BossDefinitions["360.70"] = {
+    --     sprite = "gfx/ui/bosshp_icons/grotto/ms. guano/msguano.png",
+    --     offset = Vector(0,0)
+    -- }
         --#endregion
         --#region Dripilla
-    HPBars.BossDefinitions["360.80"] = {
-        sprite = "gfx/ui/bosshp_icons/grotto/dripilla/dripilla.png",
-        offset = Vector(-14,0)
-    }
+    -- HPBars.BossDefinitions["360.80"] = {
+    --     sprite = "gfx/ui/bosshp_icons/grotto/dripilla/dripilla.png",
+    --     offset = Vector(-14,0)
+    -- }
         --#endregion
         --#region Dripilla (toxic chamption)
     -- HPBars.BossDefinitions["360.80"] = {
