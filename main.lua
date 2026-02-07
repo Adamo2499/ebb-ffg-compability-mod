@@ -59,40 +59,25 @@ if HPBars then
     }
         --#endregion
         --#region Plumpod II
-    -- HPBars.BossDefinitions["360.60"] = {
-    --     sprite = "gfx/ui/bosshp_icons/grotto/plumpod/plumpod.png",
-    --     offset = Vector(0,0)
-    -- }
+    HPBars.BossDefinitions["360.60"] = {
+        sprite = "gfx/ui/bosshp_icons/grotto/plumpod/plumpod.png",
+        offset = Vector(0,0)
+    }
         --#endregion
         --#region Ms. Guano
-    -- HPBars.BossDefinitions["360.70"] = {
-    --     sprite = "gfx/ui/bosshp_icons/grotto/ms. guano/msguano.png",
-    --     offset = Vector(0,0)
-    -- }
+    HPBars.BossDefinitions["360.70"] = {
+        sprite = "gfx/ui/bosshp_icons/grotto/ms. guano/msguano.png",
+        offset = Vector(0,0)
+    }
         --#endregion
         --#region Dripilla
-    -- HPBars.BossDefinitions["360.80"] = {
-    --     sprite = "gfx/ui/bosshp_icons/grotto/dripilla/dripilla.png",
-    --     offset = Vector(-14,0)
-    -- }
-        --#endregion
-        --#region Dripilla (toxic chamption)
-    -- HPBars.BossDefinitions["360.80"] = {
-    --     sprite = "gfx/ui/bosshp_icons/grotto/dripilla/dripillatoxic.png",
-    --     color = "{_champion}"
-    --     offset = Vector(-18,0)
-    -- }
+    HPBars.BossDefinitions["360.80"] = {
+        sprite = "gfx/ui/bosshp_icons/grotto/dripilla/dripilla.png",
+        offset = Vector(-14,0)
+    }
         --#endregion
     --#endregion
     --#region Bastille
-    --#endregion
-    --#region Special
-        --#region Grant
-        -- HPBars.BossDefinitions["360.0"] = {
-        --     sprite = "gfx/ui/bosshp_icons/special/grant/grant.png",
-        --     offset = Vector(0,0)
-        -- }
-        --#endregion
     --#endregion
 end
 --#endregion
