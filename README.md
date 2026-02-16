@@ -12,11 +12,8 @@ Get it on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?i
 2. Extract ebb-ffg-compability-mod-main.zip into Isaac's mods folder and remove -main from extracted folder's name
 3. Launch the game and enjoy!
 
-<!-- 
 ### Stats
 
 ![Steam Views](https://img.shields.io/steam/views/3658326496?style=for-the-badge&logo=steam&color=%232a475e)
 ![Steam Subscribers](https://img.shields.io/steam/downloads/3658326496?style=for-the-badge&logo=steam&color=%232a475e)
 ![Steam Favourites](https://img.shields.io/steam/favorites/3658326496?style=for-the-badge&logo=steam&color=%232a475e)
-
--->
