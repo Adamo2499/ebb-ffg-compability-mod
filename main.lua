@@ -12,8 +12,16 @@ local mod = FFGBossIcons
     --#endregion
 -- #endregion
 
+local function isBoilerStage()
+    local isBoiler = StageAPI.GetCurrentStageDisplayName() == "Boiler I"
+        or StageAPI.GetCurrentStageDisplayName() == "Boiler II"
+        or StageAPI.GetCurrentStageDisplayName() == "Boiler XL"
+    return isBoiler
+end
+
 -- #region replaceHPBarIcon
 if HPBars then
+    HPBars.Conditions["isBoilerStage"] = isBoilerStage
     --#region Boiler
         --#region Charlie
     HPBars.BossDefinitions["360.3"] = { 
@@ -42,6 +50,18 @@ if HPBars then
     HPBars.BossDefinitions["360.30"] = {
         sprite = "gfx/ui/bosshp_icons/boiler/pipeline/tootie.png",
         offset = Vector(-10,0)
+    }
+        --#endregion
+        --#region Bitchwood (Wormwood Boiler)
+    HPBars.BossDefinitions["62.3"] = {
+        sprite = "gfx/ui/bosshp_icons/altpath/wormwood.png",
+		conditionalSprites = {
+			{"isAbsoluteStage", "gfx/ui/bosshp_icons/altpath/wormwood_corpse.png", {LevelStage.STAGE4_1}},
+			{"isAbsoluteStage", "gfx/ui/bosshp_icons/altpath/wormwood_corpse.png", {LevelStage.STAGE4_2}},
+			{"isStageType", "gfx/ui/bosshp_icons/altpath/wormwood_dross.png", {StageType.STAGETYPE_REPENTANCE_B}},
+            {"isBoilerStage", "gfx/ui/bosshp_icons/boiler/bitchwood/bitchwood.png"},
+		},
+		offset = Vector(-10, 0)
     }
         --#endregion
     --#endregion
